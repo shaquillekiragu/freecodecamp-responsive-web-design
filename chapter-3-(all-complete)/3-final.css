@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+.code-background {
+  width: 100vw;
+  height: 5vh;
+  background-color: lightgrey;
+}
+
+@media (min-width: 640px) {
+  .main-doc {
+    margin: 0 20%;
+    padding: 0 1px;
+  }
+}

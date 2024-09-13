@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Shaq's Survey Form</title>
+    <link rel="stylesheet" href="./1-final.css" />
+  </head>
+  <body>
+    <h1 id="title">Shaq's Survey Form</h1>
+    <p id="description">
+      This is a short survey form for the purpose of nothing really. Please fill
+      in the fields below:
+    </p>
+    <form id="survey-form" action="">
+      <label id="name-label" for="name">Name:</label>
+      <input
+        id="name"
+        type="text"
+        placeholder="Enter your name here..."
+        required
+      />
+      <br />
+      <label id="email-label" for="email">Email Address:</label>
+      <input
+        id="email"
+        type="email"
+        placeholder="Enter your email here..."
+        required
+      />
+      <br />
+      <label id="number-label" for="number">Number:</label>
+      <input
+        id="number"
+        type="number"
+        min="0"
+        max="99"
+        placeholder="Enter your age here..."
+      />
+      <br /><br />
+      <select id="dropdown" name="dropdown">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+      </select>
+      <br /><br />
+      <label id="radio1" for="radio1">Radio 1</label>
+      <input type="radio" name="radios" value="radio1" />
+      <br />
+      <label id="radio2" for="radio2">Radio 2</label>
+      <input type="radio" name="radios" value="radio2" />
+      <br /><br />
+      <label id="checkbox1" for="checkbox1">Checkbox 1</label>
+      <input type="checkbox" name="checkbox1" value="checkbox1" />
+      <br />
+      <label id="checkbox2" for="checkbox2">Checkbox 2</label>
+      <input type="checkbox" name="checkbox2" value="checkbox2" />
+      <br />
+      <label id="checkbox3" for="checkbox3">Checkbox 3</label>
+      <input type="checkbox" name="checkbox3" value="checkbox3" />
+      <br /><br />
+      <label id="textarea-label" for="textarea">Extra information:</label>
+      <br />
+      <textarea
+        id="textarea"
+        placeholder="Enter any extra information here..."
+      ></textarea>
+      <br />
+      <button id="submit" type="submit"></button>
+    </form>
+  </body>
+</html>
